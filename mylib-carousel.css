@@ -1,0 +1,40 @@
+* { 
+padding:0;
+margin:0;
+text-align:center;
+color:#fff;
+font-size:16px;
+font-weight:bold; }
+
+#carousel { 
+width:500px;
+height:200px; }
+
+#carousel > li { 
+float:left;
+height:200px; }
+
+#carousel #move-left,
+#carousel #move-right { 
+background:red;
+width:100px; }
+
+#carousel #carousel-container { 
+position:relative;
+width:300px;
+overflow:hidden; }
+
+#carousel #carousel-list { 
+position:absolute;
+top:0;
+left:0; }
+
+#carousel #carousel-list li { 
+width:100px;
+height:200px;
+float:left; }
+
+#carousel #carousel-list .blue { background:blue; }
+#carousel #carousel-list .green { background:green; }
+#carousel #carousel-list .yellow { background:yellow; }
+#carousel #carousel-list .black { background:black; }
